@@ -26,3 +26,6 @@ venv/
 *.vmdk
 *.qcow2
 *.vdi
+
+# Office lock files
+.~lock.*
