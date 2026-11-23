@@ -1,0 +1,28 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+*.p12
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python / Docker local junk
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+
+# Large local-only dumps (keep dissertation/ curated)
+*.ova
+*.vmdk
+*.qcow2
+*.vdi
